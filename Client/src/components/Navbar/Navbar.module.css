@@ -1,0 +1,31 @@
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+nav {
+    border-bottom: 1px solid var(--primary-color);
+    position: relative;
+    z-index: 2;
+    background-color: var(--white);
+}
+
+.nav-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-menus {
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 16px;
+    font-family: Urbanist, 'Arial';
+
+    --primary-color: #fec87e;
+    --secondary-color: #dbdbdb;
+    --black: #ffffff;
+    --white: #000000;
+}
+
+body {
+    background-color: #000000;
+    min-height: 100vh;
+}
+
+#root {
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+nav a.active {
+    color: var(--primary-color);
+}
+
+button:disabled,
+input:disabled {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+button:disabled:hover,
+input:disabled:hover {
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--white);
+    cursor: default;
+}
